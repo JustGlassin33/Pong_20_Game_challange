@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://djwewioeynbpj"]
+
+[ext_resource type="PackedScene" uid="uid://di2ph1sirks4" path="res://scenes/Player_1.tscn" id="1_ibkli"]
+[ext_resource type="PackedScene" uid="uid://b3akymkqy5rpm" path="res://scenes/player_2.tscn" id="2_qbsmt"]
+[ext_resource type="PackedScene" uid="uid://dj7altmtdkayu" path="res://scenes/world_boundry.tscn" id="3_cpr0p"]
+[ext_resource type="PackedScene" uid="uid://bkgsgplmdrdk4" path="res://scenes/ball.tscn" id="4_78awf"]
+
+[node name="Node2D" type="Node2D" unique_id=2062202426]
+
+[node name="Player 1" parent="." unique_id=271421671 instance=ExtResource("1_ibkli")]
+position = Vector2(0, 300)
+
+[node name="Player 2" parent="." unique_id=594678553 instance=ExtResource("2_qbsmt")]
+position = Vector2(1137, 300)
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1565560082]
+z_index = -1
+offset_right = 1153.0
+offset_bottom = 650.0
+color = Color(0.70884883, 0.45711607, 0.88990897, 1)
+
+[node name="World_boundry" parent="." unique_id=940147634 instance=ExtResource("3_cpr0p")]
+position = Vector2(-2, 2)
+
+[node name="Ball" parent="." unique_id=907551910 instance=ExtResource("4_78awf")]
+position = Vector2(554, 328)
