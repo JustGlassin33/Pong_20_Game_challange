@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://dj7altmtdkayu" path="res://scenes/world_boundry.tscn" id="3_cpr0p"]
 [ext_resource type="PackedScene" uid="uid://bkgsgplmdrdk4" path="res://scenes/ball.tscn" id="4_78awf"]
 
-[node name="Node2D" type="Node2D" unique_id=2062202426]
+[node name="Game" type="Node2D" unique_id=2062202426]
 
 [node name="Player 1" parent="." unique_id=271421671 instance=ExtResource("1_ibkli")]
 position = Vector2(0, 300)

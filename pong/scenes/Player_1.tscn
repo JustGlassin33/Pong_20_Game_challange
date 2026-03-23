@@ -6,6 +6,8 @@
 size = Vector2(15, 127)
 
 [node name="Player 1" type="CharacterBody2D" unique_id=271421671]
+motion_mode = 1
+wall_min_slide_angle = 3.1415927
 script = ExtResource("1_8fhpc")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1556141057]
