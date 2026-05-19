@@ -5,10 +5,11 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_neh28"]
 size = Vector2(15, 127)
 
-[node name="Player 1" type="CharacterBody2D" unique_id=271421671]
-motion_mode = 1
-wall_min_slide_angle = 3.1415927
+[node name="Player 1" type="CharacterBody2D" unique_id=1893415161]
+collision_layer = 2
+collision_mask = 2
 script = ExtResource("1_8fhpc")
+SPEED = 300.0
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1556141057]
 offset_right = 15.0
